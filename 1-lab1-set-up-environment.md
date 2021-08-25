@@ -78,7 +78,7 @@ Download `Microsoft.DesktopAppInstaller_8wekyb3d8bbwe.msixbundle` file from http
 
 ```powershell
 # Open Windows PowerShell
-Add-AppxPackage -Path .\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe.appxbundle
+Add-AppxPackage -Path .\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe.msixbundle
 ```
 
 ### Installing various tools using winget
