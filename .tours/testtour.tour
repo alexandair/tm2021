@@ -1,0 +1,21 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "TestTour",
+  "steps": [
+    {
+      "file": "azure-pipelines.yml",
+      "description": "This is how we define a trigger. A pipeline will run when a change is pushed to the main branch.",
+      "line": 6
+    },
+    {
+      "file": "azure-pipelines.yml",
+      "description": "This is how we define an agent that will run our pipeline. Agent is called a runner.",
+      "line": 9
+    },
+    {
+      "file": "azure-pipelines.yml",
+      "description": "The task for deploying the ARM template.",
+      "line": 13
+    }
+  ]
+}
